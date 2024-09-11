@@ -1,2 +1,2 @@
 # zen-0000.github.io
-My web site, i'm a full stack developer
+A web page about all thai i have been learning abaout programing web
