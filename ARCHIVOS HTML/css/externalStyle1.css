@@ -1,0 +1,16 @@
+@font-face {
+    font-family: mifuente;
+    src: url(/CUSTOMSFONTS/Jacquarda_Bastarda_9/JacquardaBastarda9-Regular.ttf), serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+p{
+    font-family: mifuente;
+    color: rgb(16, 16, 17);
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    
+}
