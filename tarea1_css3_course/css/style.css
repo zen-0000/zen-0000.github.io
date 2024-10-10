@@ -8,6 +8,7 @@ header{
     background-color: #696767;
     text-align: center;
     padding: 5px;
+
 }
 /* El contenedor principal del menú de navegación */
 nav {
@@ -16,7 +17,7 @@ nav {
   position: fixed;         /* Fija la posición del nav en la pantalla, incluso al hacer scroll */
   top: 0;                  /* Posiciona el nav en la parte superior de la pantalla */
   left: 0;                 /* Posiciona el nav en el extremo izquierdo de la pantalla */
-  background-color: #f4f4f4; /* Aplica un color de fondo claro (#f4f4f4) al nav */
+  background-color: #e3e7d3; /* Aplica un color de fondo claro (#f4f4f4) al nav */
   display: flex;           /* Activa el modo flexbox para el nav, permitiendo organizar su contenido */
   flex-direction: column;  /* Organiza los elementos hijos del nav en una columna vertical */
   justify-content: space-between; /* Distribuye los elementos hijos verticalmente con espacio uniforme entre ellos */
@@ -57,4 +58,28 @@ nav ul li a:hover {
 main{
     background-color: #ffffff;
     font-size:small;
+}
+footer{
+    display: flex;
+    background-color:#ffffff;
+    position: fixed;  /* Fija el footer en la pantalla */
+    bottom: 0;        /* Lo coloca en la parte inferior */
+    left: 0;
+    width: 100%;      /* Asegura que ocupe todo el ancho de la pantalla */
+    margin-left: 4cm;
+    text-align: center;  /* Centra el contenido del footer */
+    padding: 10px 0;   /* Añade algo de espacio alrededor del texto */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);  /* Sombra para darle algo de relieve */
+}
+li{
+    display: block;
+    width: 100%;
+}
+h1{
+    text-align:center;
+    font-family:cursive;
+    color: #defa78;
+}
+p{
+    line-height: 200%;
 }
