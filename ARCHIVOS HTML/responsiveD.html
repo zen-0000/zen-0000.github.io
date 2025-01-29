@@ -131,7 +131,65 @@
             <li>none</li>
         </ul>
         Go <a href="display_and_visibility.html">display and visibility</a> and use  "inspect" to add this properties using the display element. </p>
-       
+    <h3>EXAMPLE - EXERCICE ONE</h3>
+    <p>Click in the next image:</p>
+    <a href="https://zen-0000.github.io/tarea1_css3_course/index.html"><img src="imgs/work1withstyle.png" alt="Excercice one: adding something of style." height="300px"></a>
+    <h3>Display: grid.</h3>
+    <p>The CSS Grid Layout is a powerful, flexible layout system that allows us to design and align elements in a grid-based manner. The CSS Grid Layout is a 2D grid system, meaning it works with horizontal and vertical lines to create a grid layout. In this example, we will create a grid layout with three columns and two rows. Each cell in the grid will have a width of 100px and a height of 50px. Check <a href="display_grid.html">this example.</a>
+    <ul>
+        <p>Example 2</p>
+        <a href="example2grid.html"><img src="imgs/example2grid.png" alt="Capture of screen of a web site that use a basic concept about diplay grid. "></a>
+    </ul>
+    <h4>grid elements</h4>
+    <p>A grid layout consists of a parent element with one or more child elements</p>
+    <p>The CSS Grid Layout provides several properties to control the layout of grid elements. Some of these properties include:
+        <ul>
+            <li>grid-template-columns: Defines the number and size of the columns in the grid.</li>
+            <li>grid-template-rows: Defines the number and size of the rows in the grid.</li>
+            <li>grid-template-areas: Defines the areas in the grid that can be used to position grid items</li>
+        </ul>
+    Go <a href="grid_elements_example.html">here</a> to see an example. Remember check the element "inspect".</p>
+    <h4>display property</h4>
+    <p>An HTML element becomes a grid container when its display property is set to <code>grid</code> or <code>inline-grid.</code> Using <code>grid</code>:</p>
+    <pre><code>
+        .grid-container {
+            display: grid;
+          
+        }</code></pre>
+        <a href="display_grid1.html">Go</a>
+    <p>Using <code>inline-grid</code> </p>
+    <pre><code>
+       .inline-grid-container {
+            display: inline-grid;
+            
+        }</code></pre>
+        <a href="display_inline_grid.html">Go</a>
+    <p>All direct children of the grid container automatically become grid items.</p>
+    <h4>Grid Columns</h4>
+    <p>The vertical lines of grid items are called columns.</p>
+    <img src="imgs/grid_columns.png" alt="Grid Columns">
+    <p>To create grid columns, you can use the <code>grid-template-columns</code> property. This property takes a comma-separated list of values, where each value represents the width of a column. The width of each column is determined by the sum of the values in the list.</p>
+    <h4>Grid Rows</h4>
+    <p>The horizontal lines of grid items are called rows.</p>
+    <img src="imgs/grid_rows.png" alt="Grid Rows">
+    <p>To create grid rows, you can use the <code>grid-template-rows</code> property. This property takes a comma-separated list of values, where each value represents the height of a row. The height of each row is determined by the sum of the values in the list.</p>
+    <h4>Grid Gaps</h4>
+    <p>The spaces between each column/row are called gaps.</p>
+    <img src="imgs/grid_gaps.png" alt="Grid Gaps">
+    <p>To control the size and spacing of the grid gaps, you can use the following properties:
+        <ul>
+            <li>grid-column-gap: Sets the horizontal gap between grid columns.</li>
+            <li>grid-row-gap: Sets the vertical gap between grid rows.</li>
+            <li>gap: Sets both the horizontal and vertical gap between grid columns and rows.</li>
+            <li>grid-gap: Sets both the horizontal and vertical gap between grid columns and rows using a single value.</li>
+            <li>column-gap</li>
+            <li>row-gap </li>
 
+        </ul>
+    <h4>grid lines</h4>
+    <p>Grid lines are the vertical and horizontal lines that separate grid cells. The lines between columns are called <em>column lines</em>. The lines between rows are called <em>row lines.</em></p>
+    <img src="imgs/grid_lines.png" alt="Grid Lines">
+    <p>in <a href="grid_line.html">this example</a>, i place a grid item at column line 1, and i let it end on column line 4 and place a grid item at row line 2, and let it end on row line 4.</p>
+   
 </body>
-</html>
+</html> 
